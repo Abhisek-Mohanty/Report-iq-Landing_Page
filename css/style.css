@@ -10,10 +10,10 @@
   --ott-dark-card: #0f2438;
   --ott-navy-text: #0d1b2a;
   
-  --ott-teal: #2dd4bf;
-  --ott-teal-light: #5eead4;
-  --ott-mint: #34d399;
-  --ott-mint-bar: #5fe3b3;
+  --ott-teal: #5c67f5;
+  --ott-teal-light: #4b55e6;
+  --ott-mint: #7000ff;
+  --ott-mint-bar: #5921a3;
 
   --ott-violet: #5c67f5;
   --ott-violet-hover: #4b55e6;
@@ -49,6 +49,17 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Outfit', 'Inter', sans-serif;
   font-weight: 700;
   letter-spacing: -0.025em;
+}
+
+a h4{
+  font-family: 'Outfit', 'Inter', sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  color: #94a3b8;
+}
+a{
+  text-decoration: none;
+
 }
 
 /* Top Announcement Banner (Screenshot 1) */
@@ -305,6 +316,10 @@ h1, h2, h3, h4, h5, h6 {
   color: #ffffff;
   margin-bottom: 1.5rem;
   letter-spacing: -0.035em;
+}
+
+.text-muted{
+  color: #f4f4f4;
 }
 
 .ott-hero-title .teal-line {
